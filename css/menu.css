@@ -1,0 +1,58 @@
+/* 
+###############################################################################
+			Arquivo de Configuração CSS - MENU.CSS
+###############################################################################
+*/
+
+/* Referente a tabela da barra do logo */
+
+table.tabela_logo
+{
+	height: 35px;
+	width: 100%;
+}
+
+/* Referente a tabela da barra marquee */
+
+table.tabela_legenda
+{
+	background-color: rgb(255 , 255 , 255);
+	height: 40px;
+	width: 100%;
+}
+
+/* Referente ao título (Manual)*/
+
+td.menu_titulo
+{
+	font-size: 16;
+	font-family: Book Antiqua;
+	font-weight: bold;
+	text-align: left;
+	height: 40px;
+	/*width: 50%;*/
+}
+
+/* Referente ao texto e barra marquee */
+
+/*
+https://www.flextool.com.br/tabela_cores.html
+
+Azul Turqueza - Informática Básica -  Sistemas Operacionais: rgb(70 , 130 , 180)
+Laranja - Informática Básica - Power Point: rgb(255 , 69 ,  0)
+Azul Escuro - Informática Básica - Word: rgb(0 , 112 , 192)
+Verde - Informática Básica - Excel: rgb(34 , 139 , 34)
+(Verde) LightSeaGreen - Sistemas Embarcados: rgb(32 , 178 , 170)
+*/
+
+td.texto_legenda2
+{
+	background-color: rgb( 11 , 135 , 125);
+	font-family: Arial; 
+	font-size: 13;
+	font-weight: bold;
+	color: rgb(0 , 0 , 0);
+	text-align: center;
+	height: 35px;
+	width: 9%;
+}
